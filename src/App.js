@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from './components/navbar';
 import Home from './pages/home';
 import CV from './pages/cv';
+import Research from "./pages/research";
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/home" element={<Home/>}/>
           <Route exact path="/cv" element={<CV/>}/>
+          <Route exact path="/research" element={<Research/>}/>
         </Routes>
       </BrowserRouter>
     </div>
