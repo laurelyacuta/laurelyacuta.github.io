@@ -1,6 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import { HashRouter, Routes, Route } from "react-router-dom";
 import NavBar from './components/navbar';
+import Home from './components/home';
+import './App.css';
 
 function App() {
   return (
@@ -12,20 +13,11 @@ function App() {
         crossOrigin="anonymous"
       />
       <NavBar></NavBar>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HashRouter>
+        <Routes>
+          <Route exact path="/" element={<Home></Home>}></Route>
+        </Routes>
+      </HashRouter>
     </div>
   );
 }
