@@ -1,6 +1,7 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from './components/navbar';
-import Home from './components/home';
+import Home from './pages/home';
+import CV from './pages/cv';
 import './App.css';
 
 function App() {
@@ -13,11 +14,13 @@ function App() {
         crossOrigin="anonymous"
       />
       <NavBar></NavBar>
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<Home></Home>}></Route>
+          <Route exact path="/" element={<Home/>}/>
+          <Route exact path="/home" element={<Home/>}/>
+          <Route exact path="/cv" element={<CV/>}/>
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
