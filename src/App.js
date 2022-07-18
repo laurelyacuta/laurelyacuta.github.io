@@ -3,6 +3,8 @@ import NavBar from './components/navbar';
 import Home from './pages/home';
 import CV from './pages/cv';
 import Research from "./pages/research";
+import Teaching from './pages/teaching';
+import AboutMe from "./pages/about-me";
 import './App.css';
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
           <Route exact path="/home" element={<Home/>}/>
           <Route exact path="/cv" element={<CV/>}/>
           <Route exact path="/research" element={<Research/>}/>
+          <Route exact path="/teaching" element={<Teaching/>}/>
+          <Route exact path="/about-me" element={<AboutMe/>}/>
         </Routes>
       </BrowserRouter>
     </div>
