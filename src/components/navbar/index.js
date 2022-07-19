@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
 
 class NavBar extends Component {
   render() {
@@ -16,6 +17,12 @@ class NavBar extends Component {
               <Nav.Link href="teaching">Teaching</Nav.Link>
               <Nav.Link href="about-me">About Me</Nav.Link>
             </Nav>
+          </Navbar.Collapse>
+          <Navbar.Collapse className="justify-content-end">
+            <Button variant="primary">Email</Button>{' '}
+            <Button variant="primary">Google Scholar</Button>{' '}
+            <Button variant="primary">LinkedIn</Button>{' '}
+            <Button variant="primary">GitHub</Button>{' '}
           </Navbar.Collapse>
         </Navbar>
       </div>
