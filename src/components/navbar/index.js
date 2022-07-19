@@ -19,10 +19,10 @@ class NavBar extends Component {
             </Nav>
           </Navbar.Collapse>
           <Navbar.Collapse className="justify-content-end">
-            <Button variant="primary">Email</Button>{' '}
-            <Button variant="primary">Google Scholar</Button>{' '}
-            <Button variant="primary">LinkedIn</Button>{' '}
-            <Button variant="primary">GitHub</Button>{' '}
+            <Button variant="dark">Email</Button>{' '}
+            <Button variant="dark">Google Scholar</Button>{' '}
+            <Button variant="dark">LinkedIn</Button>{' '}
+            <Button variant="dark">GitHub</Button>{' '}
           </Navbar.Collapse>
         </Navbar>
       </div>
