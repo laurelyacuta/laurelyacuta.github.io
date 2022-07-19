@@ -19,10 +19,38 @@ class NavBar extends Component {
             </Nav>
           </Navbar.Collapse>
           <Navbar.Collapse className="justify-content-end">
-            <Button variant="dark">Email</Button>{' '}
-            <Button variant="dark">Google Scholar</Button>{' '}
-            <Button variant="dark">LinkedIn</Button>{' '}
-            <Button variant="dark">GitHub</Button>{' '}
+            <Button variant="dark" href="https://google.com">
+              <img
+                src="./envelope-solid.svg"
+                width="30"
+                height="30"
+                className="d-inline-block align-top"
+                alt="Email"/>
+            </Button>
+            <Button variant="dark" href="https://google.com">
+              <img
+                src="./graduation-cap-solid.svg"
+                width="30"
+                height="30"
+                className="d-inline-block align-top"
+                alt="Google Scholar"/>
+            </Button>
+            <Button variant="dark" href="https://google.com">
+              <img
+                src="./linkedin-brands.svg"
+                width="30"
+                height="30"
+                className="d-inline-block align-top"
+                alt="LinkedIn"/>
+            </Button>
+            <Button variant="dark" href="https://google.com">
+              <img
+                src="./github-brands.svg"
+                width="30"
+                height="30"
+                className="d-inline-block align-top"
+                alt="GitHub"/>
+            </Button>
           </Navbar.Collapse>
         </Navbar>
       </div>
