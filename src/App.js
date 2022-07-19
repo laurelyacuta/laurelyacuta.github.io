@@ -5,6 +5,7 @@ import CV from './pages/cv';
 import Research from "./pages/research";
 import Teaching from './pages/teaching';
 import AboutMe from "./pages/about-me";
+import Footer from "./components/footer";
 import './App.css';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route exact path="/about-me" element={<AboutMe/>}/>
         </Routes>
       </BrowserRouter>
+      <Footer></Footer>
     </div>
   );
 }
