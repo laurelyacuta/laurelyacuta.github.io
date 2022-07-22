@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
 
 class NavBar extends Component {
   render() {
     return(
-      <div className="NavBar">
-        <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar bg="dark" variant="dark" expand="lg">
+        <Container>
           <Navbar.Brand>Laurel Yacuta</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
+            <Nav className="me-auto">
               <Nav.Link href="home">Home</Nav.Link>
               <Nav.Link href="cv">CV</Nav.Link>
               <Nav.Link href="research">Research</Nav.Link>
@@ -52,8 +53,8 @@ class NavBar extends Component {
                 alt="GitHub"/>
             </Button>
           </Navbar.Collapse>
-        </Navbar>
-      </div>
+        </Container>
+      </Navbar>
     );
   }
 }

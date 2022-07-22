@@ -8,19 +8,17 @@ const year = new Date().getFullYear();
 class Footer extends Component {
   render() {
     return(
-      <div className="Footer">
-        <Navbar collapseOnSelect expand="lg" bg="light" fixed="bottom">
-          <Container>
-            <Nav className="justify-content-center" style={{ flex: 1}}>
-              <Nav.Item>
-                <Nav.Link eventKey="disabled" disabled>
-                  Copyright © {year} by Laurel Yacuta. Made with React.
-                </Nav.Link>
-              </Nav.Item>
-            </Nav>
-          </Container>
-        </Navbar>
-      </div>
+      <Navbar collapseOnSelect expand="lg" bg="light" fixed="bottom">
+        <Container>
+          <Nav className="justify-content-center" style={{ flex: 1}}>
+            <Nav.Item>
+              <Nav.Link eventKey="disabled" disabled>
+                Copyright © {year} by Laurel Yacuta. Made with React.
+              </Nav.Link>
+            </Nav.Item>
+          </Nav>
+        </Container>
+      </Navbar>
     );
   }
 }
