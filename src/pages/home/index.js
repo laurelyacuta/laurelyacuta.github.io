@@ -3,7 +3,9 @@ import Container from "react-bootstrap/Container";
 import Card from 'react-bootstrap/Card';
 import { Row, Col } from 'react-bootstrap';
 
-const title = 'Welcome!';
+const title = `
+Welcome!
+`;
 
 const text = `
 Some quick example text to build on the card title and make up the
