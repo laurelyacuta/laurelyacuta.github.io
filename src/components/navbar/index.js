@@ -19,7 +19,7 @@ class NavBar extends Component {
             </Nav>
           </Navbar.Collapse>
           <Navbar.Collapse className="justify-content-end">
-            <Button variant="dark" href="https://google.com">
+            <Button variant="dark" href="mailto:example@gmail.com">
               <img
                 src="./envelope-solid.svg"
                 width="30"
@@ -27,7 +27,7 @@ class NavBar extends Component {
                 className="d-inline-block align-top"
                 alt="Email"/>
             </Button>
-            <Button variant="dark" href="https://google.com">
+            <Button variant="dark" href="https://scholar.google.com/">
               <img
                 src="./graduation-cap-solid.svg"
                 width="30"
@@ -35,7 +35,7 @@ class NavBar extends Component {
                 className="d-inline-block align-top"
                 alt="Google Scholar"/>
             </Button>
-            <Button variant="dark" href="https://google.com">
+            <Button variant="dark" href="https://www.linkedin.com/">
               <img
                 src="./linkedin-brands.svg"
                 width="30"
@@ -43,7 +43,7 @@ class NavBar extends Component {
                 className="d-inline-block align-top"
                 alt="LinkedIn"/>
             </Button>
-            <Button variant="dark" href="https://google.com">
+            <Button variant="dark" href="https://github.com/">
               <img
                 src="./github-brands.svg"
                 width="30"
