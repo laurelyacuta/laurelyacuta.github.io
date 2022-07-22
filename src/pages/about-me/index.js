@@ -1,14 +1,21 @@
 import React, { Component } from 'react';
+import Container from 'react-bootstrap/Container';
+
+const title = `
+About Me
+`;
+
+const text = `
+This is my About Me page.
+`;
 
 class AboutMe extends Component {
   render() {
     return (
-      <div className="CV">
-        <h1>About Me</h1>
-        <p>
-          This is my About Me page.
-        </p>
-      </div>
+      <Container>
+        <h1>{title}</h1>
+        <p>{text}</p>
+      </Container>
     );
   }
 }
