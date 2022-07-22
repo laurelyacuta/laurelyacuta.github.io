@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import Container from "react-bootstrap/Container";
-import Card from 'react-bootstrap/Card';
+import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
 import { Row, Col } from 'react-bootstrap';
-import Image from 'react-bootstrap/Image'
 
 const title = `
 Welcome!
