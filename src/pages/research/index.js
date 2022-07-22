@@ -1,14 +1,21 @@
 import React, { Component } from 'react';
+import Container from "react-bootstrap/Container";
+
+const title = `
+Research
+`;
+
+const text = `
+This is my Research page.
+`;
 
 class Research extends Component {
   render() {
     return (
-      <div className="CV">
-        <h1>Research</h1>
-        <p>
-          This is my Research page.
-        </p>
-      </div>
+      <Container>
+        <h1>{title}</h1>
+        <p>{text}</p>
+      </Container>
     );
   }
 }
