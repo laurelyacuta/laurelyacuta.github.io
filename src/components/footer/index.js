@@ -3,6 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
+const year = new Date().getFullYear();
+
 class Footer extends Component {
   render() {
     return(
@@ -12,7 +14,7 @@ class Footer extends Component {
             <Nav className="justify-content-center" style={{ flex: 1}}>
               <Nav.Item>
                 <Nav.Link eventKey="disabled" disabled>
-                  Copyright © 2022 by Laurel Yacuta. Made with React.
+                  Copyright © {year} by Laurel Yacuta. Made with React.
                 </Nav.Link>
               </Nav.Item>
             </Nav>
