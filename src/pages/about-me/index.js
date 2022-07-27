@@ -13,7 +13,7 @@ class AboutMe extends Component {
         <Row className="justify-content-md-center">
           <h1 style={{marginTop: 50, marginBottom: 50, width: '25rem'}}>{title}</h1>
         </Row>
-        <Row className="justify-content-md-center">
+        <Row>
           <p class="text-left">{text}</p>
         </Row>
       </Container>
