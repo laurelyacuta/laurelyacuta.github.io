@@ -7,7 +7,7 @@ Curriculum Vitae
 `;
 
 const date = `
-January 1, 2022
+July 31, 2022
 `;
 
 const text = `
