@@ -3,14 +3,14 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 const title = `
-Research
+Research Applied
 `;
 
 const text = `
-This is my Research page.
+This is my Research Applied page.
 `;
 
-class Research extends Component {
+class ResearchApplied extends Component {
   render() {
     return (
       <Container>
@@ -25,4 +25,4 @@ class Research extends Component {
   }
 }
 
-export default Research;
+export default ResearchApplied;

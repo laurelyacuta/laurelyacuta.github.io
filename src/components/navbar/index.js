@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 class NavBar extends Component {
   render() {
@@ -14,7 +15,10 @@ class NavBar extends Component {
             <Nav className="me-auto">
               <Nav.Link href="home">Home</Nav.Link>
               <Nav.Link href="cv">CV</Nav.Link>
-              <Nav.Link href="research">Research</Nav.Link>
+              <NavDropdown title="Research" menuVariant="dark">
+                <NavDropdown.Item href="publications">Publications</NavDropdown.Item>
+                <NavDropdown.Item href="research-applied">Research Applied</NavDropdown.Item>
+              </NavDropdown>
               <Nav.Link href="teaching">Teaching</Nav.Link>
               <Nav.Link href="about-me">About Me</Nav.Link>
             </Nav>
