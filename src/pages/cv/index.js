@@ -11,7 +11,7 @@ January 1, 2022
 `;
 
 const text = `
-Below is my CV, or you can download my CV in pdf format.
+Below is my CV, or you can contact me for more information.
 `;
 
 class CV extends Component {
@@ -28,7 +28,7 @@ class CV extends Component {
           <p>{text}</p>
         </Row>
         <Row className="justify-content-md-center">
-          <p>Link goes here.</p>
+          <iframe title="CV" src="https://docs.google.com/document/d/e/2PACX-1vQXKig9kIAsp91C1J5U36m5eo4-8OcSVhMfbEtP2NsSC-mn55kp7X35K6UY0D7eqA/pub?embedded=true" width={800} height={500}></iframe>
         </Row>
       </Container>
     );
