@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
-import { Row } from 'react-bootstrap';
+import Row from 'react-bootstrap/Row';
 
 const title = `
 Research

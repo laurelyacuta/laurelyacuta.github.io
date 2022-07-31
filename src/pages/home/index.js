@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
-import { Row, Col } from 'react-bootstrap';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 const title = 'Welcome!';
 
@@ -18,7 +19,7 @@ class Home extends Component {
         </Row>
         <Row>
           <Col>
-            <Image src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmVzc2lvbmFsfGVufDB8fDB8fA%3D%3D&w=1000&q=80" rounded style={{marginTop: 50, marginBottom: 50, width: '25rem'}}></Image>
+            <Image src="/laurel-profile.png" rounded style={{marginTop: 50, marginBottom: 50, width: '25rem'}}></Image>
           </Col>
           <Col style={{marginTop: 50, marginBottom: 50, width: '25rem'}}>
             <p class="text-left">{text_p1}</p>
