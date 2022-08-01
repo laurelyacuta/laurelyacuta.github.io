@@ -27,7 +27,6 @@ class Teaching extends Component {
           <p>
             Below are various links on some supplemental files on courses I teach. My teaching statement can be found here: Teaching Philosophy
           </p>
-          <br></br>
           <h3>Associate Instructor of Record</h3>
           <ul>
             <li>Introduction to Comparative Politics (Summer 2021)</li>
@@ -76,6 +75,74 @@ class Teaching extends Component {
                 <ul>
                   <li>Section Syllabus</li>
                 </ul>
+              </ul>
+            </ul>
+          </ul>
+          <ul>
+            <li>Introduction to International Relations</li>
+            <ul>
+              <li>Professor Brandon Kinne</li>
+              <ul>
+                <li>Fall 2020 (1 section)</li>
+                <ul>
+                  <li>Spring 2022</li>
+                  <ul>
+                    <li>Sample Presentation</li>
+                    <li>Section Syllabus</li>
+                  </ul>
+                </ul>
+              </ul>
+            </ul>
+            <ul>
+              <li>Professor Konno</li>
+              <ul>
+                <li>Spring 2020</li>
+                <ul>
+                  <li>Section Syllabus</li>
+                </ul>
+              </ul>
+            </ul>
+          </ul>
+          <h3>Teaching Assistant</h3>
+          <ul>
+            <li>POL 152 Constitutional Politics of Equality (Winter 2018)</li>
+            <ul>
+              <li>Professor: Mark Verbitsky</li>
+            </ul>
+          </ul>
+          <ul>
+            <li>POL 137 International Relations of Western Europe (Spring 2018)</li>
+            <ul>
+              <li>Professor: Jeannette Money</li>
+              <ul>
+                <li>Guest Presentation</li>
+              </ul>
+            </ul>
+          </ul>
+          <ul>
+            <li>POL 124 Politics of Global Inequality	(Winter 2019)</li>
+            <ul>
+              <li>Professor: Jeannette Money</li>
+            </ul>
+          </ul>
+          <ul>
+            <li>HIS 174C United States History Since 1945 (Winter 2019)</li>
+            <ul>
+              <li>Professor: Shelley Brooks</li>
+            </ul>
+          </ul>
+          <ul>
+            <li>POL 126 Ethnic Conflict (Spring 2019)</li>
+            <ul>
+              <li>Professor: Omar García-Ponce</li>
+            </ul>
+          </ul>
+          <ul>
+            <li>POL 142A Comparative Political Development (Winter 2020)</li>
+            <ul>
+              <li>Professor: Gabriella Montinola</li>
+              <ul>
+                <li>Guest Presentation</li>
               </ul>
             </ul>
           </ul>
