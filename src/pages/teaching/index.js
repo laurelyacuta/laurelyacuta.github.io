@@ -28,58 +28,55 @@ class Teaching extends Component {
             Below are various links on some supplemental files on courses I teach. My teaching statement can be found here: Teaching Philosophy
           </p>
           <br></br>
-          <h3>
-            Associate Instructor of Record
-          </h3>
+          <h3>Associate Instructor of Record</h3>
           <ul>
-            <li>
-              Introduction to Comparative Politics (Summer 2021)
-            </li>
+            <li>Introduction to Comparative Politics (Summer 2021)</li>
             <ul>
-              <li>
-                Syllabus (link)
-              </li>
-              <li>
-                Sample Classroom Presentation
-              </li>
+              <li>Syllabus (link)</li>
+              <li>Sample Classroom Presentation</li>
             </ul>
           </ul>
-          <h3>
-            Discussion Section Instructor
-          </h3>
+          <h3>Discussion Section Instructor</h3>
           <ul>
-            <li>
-              POL 144A Eastern European Politics (Spring 2021)
-            </li>
+            <li>POL 144A Eastern European Politics (Spring 2021)</li>
             <ul>
-              <li>
-                Section Syllabus
-              </li>
-              <li>
-                Assignment Calendar
-              </li>
-              <li>
-                Sample Presentation
-              </li>
+              <li>Section Syllabus</li>
+              <li>Assignment Calendar</li>
+              <li>Sample Presentation</li>
             </ul>
           </ul>
           <ul>
-            <li>
-              POL 144A Eastern European Politics (Winter 2022)
-            </li>
+            <li>POL 144A Eastern European Politics (Winter 2022)</li>
             <ul>
-              <li>
-                Section Syllabus
-              </li>
-              <li>
-                Assignment Calendar
-              </li>
-              <li>
-                Sample Presentation
-              </li>
-              <li>
-                Guest Lecture Presentation
-              </li>
+              <li>Section Syllabus</li>
+              <li>Assignment Calendar</li>
+              <li>Sample Presentation</li>
+              <li>Guest Lecture Presentation</li>
+            </ul>
+          </ul>
+          <h3>Discussion Section Teaching Assistant</h3>
+          <ul>
+            <li>Introduction to Comparative Politics</li>
+            <ul>
+              <li>Professor Josephine Andrews</li>
+              <ul>
+                <li>Fall 2019</li>
+                <li>Winter 2021</li>
+                <li>Fall 2021</li>
+                <ul>
+                  <li>Sample Presentation</li>
+                  <li>Section Syllabus</li>
+                </ul>
+              </ul>
+            </ul>
+            <ul>
+              <li>Associate Instructor Isaac Hale</li>
+              <ul>
+                <li>Fall 2020</li>
+                <ul>
+                  <li>Section Syllabus</li>
+                </ul>
+              </ul>
             </ul>
           </ul>
         </div>
