@@ -2,13 +2,7 @@ import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
-const title = `
-Publications
-`;
-
-const text = `
-This is my Publications page.
-`;
+const title = 'Publications';
 
 class Publications extends Component {
   render() {
@@ -18,7 +12,9 @@ class Publications extends Component {
           <h1 style={{marginTop: 50, marginBottom: 50, width: '25rem'}}>{title}</h1>
         </Row>
         <Row className="justify-content-md-center">
-          <p>{text}</p>
+          <p>
+            My research is currently in progress. If you have any questions, then please contact me for more information.
+          </p>
         </Row>
       </Container>
     );
