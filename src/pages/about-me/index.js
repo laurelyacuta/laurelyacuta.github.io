@@ -4,8 +4,6 @@ import Row from 'react-bootstrap/Row';
 
 const title = 'About Me';
 
-const text = 'I am originally from the beautiful foothills of the Sierra Nevada in California. I received my undergraduate degree in International Relations from University of California Davis. And when not hitting the books, I am an avid gardener, artist, and tennis player!';
-
 class AboutMe extends Component {
   render() {
     return (
@@ -14,7 +12,10 @@ class AboutMe extends Component {
           <h1 style={{marginTop: 50, marginBottom: 50, width: '25rem'}}>{title}</h1>
         </Row>
         <Row>
-          <p class="text-left">{text}</p>
+          <p class="text-left">
+            I am originally from the beautiful foothills of the Sierra Nevada in California. I received my undergraduate degree in
+            International Relations from University of California Davis. And when not hitting the books, I am an avid gardener, artist, and tennis player!
+          </p>
         </Row>
       </Container>
     );
