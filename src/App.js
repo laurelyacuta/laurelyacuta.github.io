@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import NavBar from './components/navbar';
 import Home from './pages/home';
 import CV from './pages/cv';
@@ -19,7 +19,7 @@ function App() {
         crossOrigin="anonymous"
       />
       <NavBar></NavBar>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/home" element={<Home/>}/>
@@ -29,7 +29,7 @@ function App() {
           <Route exact path="/teaching" element={<Teaching/>}/>
           <Route exact path="/about-me" element={<AboutMe/>}/>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <Footer></Footer>
     </div>
   );
