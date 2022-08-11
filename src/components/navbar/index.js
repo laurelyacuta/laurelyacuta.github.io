@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
@@ -13,14 +14,14 @@ class NavBar extends Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="home">Home</Nav.Link>
-              <Nav.Link href="cv">CV</Nav.Link>
+              <Nav.Link as={Link} to="/home">Home</Nav.Link>
+              <Nav.Link as={Link} to="/cv">CV</Nav.Link>
               <NavDropdown title="Research" menuVariant="dark">
-                <NavDropdown.Item href="publications">Publications</NavDropdown.Item>
-                <NavDropdown.Item href="research-applied">Research Applied</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/publications">Publications</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/research-applied">Research Applied</NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="teaching">Teaching</Nav.Link>
-              <Nav.Link href="about-me">About Me</Nav.Link>
+              <Nav.Link as={Link} to="/teaching">Teaching</Nav.Link>
+              <Nav.Link as={Link} to="/about-me">About Me</Nav.Link>
             </Nav>
           </Navbar.Collapse>
           <Navbar.Collapse className="justify-content-end">
