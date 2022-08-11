@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import NavBar from './components/navbar';
 import Home from './pages/home';
 import CV from './pages/cv';
@@ -18,8 +18,8 @@ function App() {
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossOrigin="anonymous"
       />
-      <NavBar></NavBar>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter>
+        <NavBar></NavBar>
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/home" element={<Home/>}/>
@@ -29,7 +29,7 @@ function App() {
           <Route exact path="/teaching" element={<Teaching/>}/>
           <Route exact path="/about-me" element={<AboutMe/>}/>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <Footer></Footer>
     </div>
   );
