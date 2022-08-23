@@ -22,14 +22,14 @@ class Home extends Component {
               Hi all and thank you for visiting my website! I am currently a PhD Doctoral Candidate of Political Science at University of California, Davis.
             </p>
             <p class="text-left">
-              My research agenda focuses broadly on examining the causes of a variety of types of intrastate violence on the regime and societal level.
-              My graduate work, advised primarily by Josephine Andrews and Lauren Young, focused specifically on disaggregating regime types by separating
-              civil liberties from electoral components and exploring the variances within non-electoral components (civil society freedoms, freedom of religion, and rule of law)
-              affect intrastate violence. In another project I am working on we test the role of ethnicity and religion as sperate identities in a novel randomized
-              control survey experiment in India where we aim to illuminate which identity is most likely stir violence and under what conditions an identity can contribute to violence.
-              I am also involved in projects on effects of state repression on voter behavior and trust in regimes in Zimbabwe and examining Eastern versus Western Europe Cabinet stability.
-              Recently, I have contracted with the World Bank to consult on the Zimbabwe Hight Frequency Telephone Survey Report (ZIMTRAC) survey analysis.
-              I have also a methodological interest in multi-dimensional scaling, unexpected event during survey design using geolocation data, and survey analysis.
+              My research agenda focuses broadly on examining the causes of intrastate violence on the regime and societal level. My graduate work, advised primarily by Josephine Andrews and Lauren Young, focuses specifically on disaggregating regime types by separating civil liberties from electoral dimensions and exploring the variances within non-electoral components (civil society freedoms, freedom of religion, and rule of law) affect intrastate violence.
+              I have a methodological interest in multi-dimensional scaling, unexpected events during survey design using geolocation data, experiments, and survey analysis.
+            </p>
+            <p class="text-left">
+              In another project I am working on, my coauthor and I test the role of ethnicity and religion as two separate identities in a novel randomized control survey experiment in India. In this survey we aim to illuminate which identity is most likely to stir or prevent violence and under what conditions an identity can contribute or deter to violence.
+            </p>
+            <p class="text-left">
+              Other projects I am involved in include: effects of state repression on voter behavior and trust in regimes in Zimbabwe; examining Eastern versus Western Europe Cabinet stability; and contracting with the World Bank to consult on the Zimbabwe High Frequency Telephone Survey Report (ZIMTRAC) survey analysis.
             </p>
           </Col>
         </Row>
