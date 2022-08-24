@@ -22,7 +22,7 @@ class CV extends Component {
           </p>
         </Row>
         <Row className="justify-content-md-center">
-          <iframe title="CV" src="https://docs.google.com/document/d/e/2PACX-1vSgqaoM6iY5c_bCw3j6fvn9INKF2FGX4DSNtIOes5F6zlf5GYOpPcvkFlV78ZFAdxrwR09zfx06WJ0Q/pub?embedded=true" width={900} height={900}></iframe>
+          <iframe title="CV" src="https://docs.google.com/document/d/e/2PACX-1vShHNGBZ-gtuCeBmCfYfVkYLPY9aPBpxMXDAhmTXNUZqe5784lnWSuewmyZDZUyFA/pub?embedded=true" width={900} height={900}></iframe>
         </Row>
       </Container>
     );
