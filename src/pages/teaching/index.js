@@ -33,7 +33,7 @@ class Teaching extends Component {
             <ul>
               <li>Syllabus (link)</li>
               <li>Sample Classroom Presentation</li>
-              <ul>
+            </ul>
             <li>Introduction to Comparative Politics (Summer 2021)</li>
             <ul>
               <li>Syllabus (link)</li>
