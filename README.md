@@ -80,3 +80,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 4. Run `git commit -m "Updated website"`
 
 5. Run `git push`
+
+After the code has been pushed to GitHub you must deploy the changes to transfer to the website.
+
+1. Run `npm run deploy`
+
+    Expected output:
+    ```
+    > personal-website-laurel@0.1.0 deploy
+    > gh-pages -d build
+
+    Published
+    ```
