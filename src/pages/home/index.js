@@ -29,8 +29,7 @@ class Home extends Component {
               In another project I am working on, my coauthor and I test the role of ethnicity and religion as two separate identities in a novel randomized control survey experiment in India. In this survey we aim to illuminate which identity is most likely to stir or prevent violence and under what conditions an identity can contribute or deter to violence.
             </p>
             <p class="text-left">
-              Other projects I am involved in include: effects of state repression on voter behavior and trust in regimes in Zimbabwe; examining Eastern versus Western Europe Cabinet stability; and contracting with the World Bank to consult on the Zimbabwe High Frequency Telephone Survey Report (ZIMTRAC) survey analysis.
-            </p>
+              Other projects I am involved in include consulting with the World Bank on analytics for local institutions, service delivery, and social cohesion in Central Asia. In this capacity, I analyze data from proprietary World Bank surveys, examining mahalla leaders and regional infrastructure development projects, in combination with protest data. I also write policy memos based on my findings. I have previously worked with the World Bank on analyzing the Zimbabwe High Frequency Telephone Survey Report (ZIMTRAC). In addition, I have worked on projects examining cabinet stability in Eastern versus Western Europe and Ukrainian election data on party lists.            </p>
           </Col>
         </Row>
       </Container>
