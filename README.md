@@ -73,6 +73,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Update the source code
 
+Note: before running code, be sure to save project (command +s)
+
 1. In VS Code go to Terminal > select New Terminal
 
 2. Run `cd laurelyacuta.github.io`

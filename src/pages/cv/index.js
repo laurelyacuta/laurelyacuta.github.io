@@ -13,7 +13,7 @@ class CV extends Component {
         </Row>
         <Row className="justify-content-md-center">
           <p>
-            July 31, 2022
+            March 5th 2023
           </p>
         </Row>
         <Row className="justify-content-md-center">
@@ -22,7 +22,7 @@ class CV extends Component {
           </p>
         </Row>
         <Row className="justify-content-md-center">
-          <iframe title="CV" src="https://docs.google.com/document/d/e/2PACX-1vShHNGBZ-gtuCeBmCfYfVkYLPY9aPBpxMXDAhmTXNUZqe5784lnWSuewmyZDZUyFA/pub?embedded=true" width={900} height={900}></iframe>
+          <iframe title="CV" src="https://docs.google.com/document/d/e/2PACX-1vRuj4fEwiSR00cMu8r0BJOnWRnNeLJUYGhvwZt4nZST2Ev3Vh9CHtb8BOhf_8alqg-N9roGwDsgz7Ax/pub?embedded=true" width={900} height={900}></iframe>
         </Row>
       </Container>
     );
