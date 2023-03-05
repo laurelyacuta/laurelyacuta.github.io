@@ -71,6 +71,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## To make updates to the website for Laurel
 
+### Update the source code
+
 1. In VS Code go to Terminal > select New Terminal
 
 2. Run `cd laurelyacuta.github.io`
@@ -80,6 +82,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 4. Run `git commit -m "Updated website"`
 
 5. Run `git push`
+
+### Deploy the changes
 
 After the code has been pushed to GitHub you must deploy the changes to transfer to the website.
 
