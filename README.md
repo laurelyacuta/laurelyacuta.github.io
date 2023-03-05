@@ -98,3 +98,19 @@ After the code has been pushed to GitHub you must deploy the changes to transfer
 
     Published
     ```
+
+### To run it all at once
+
+Note: before running code, be sure to save project (command +s)
+
+1. In VS Code go to Terminal > select New Terminal
+
+2. Run:
+
+```bash
+cd laurelyacuta.github.io \
+&& git add . \
+&& git commit -m "Updated website" \
+&& git push \
+&& npm run deploy
+```
