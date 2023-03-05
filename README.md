@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## To make updates to the website
+
+1. In VS Code go to Terminal > select New Terminal
+
+2. Run `cd laurelyacuta.github.io`
+
+3. Run `git add .`
+
+4. Run `git commit -m "Updated website"`
+
+5. Run `git push`
