@@ -29,6 +29,11 @@ class Teaching extends Component {
           </p>
           <h3>Associate Instructor of Record</h3>
           <ul>
+            <li>Introduction to Comparative Politics (Winter 2023)</li>
+            <ul>
+              <li>Syllabus (link)</li>
+              <li>Sample Classroom Presentation</li>
+              <ul>
             <li>Introduction to Comparative Politics (Summer 2021)</li>
             <ul>
               <li>Syllabus (link)</li>
