@@ -25,7 +25,7 @@ class Teaching extends Component {
             In all classes I teach I aim to kindle student's impulses to independently think about and question the world around them.
           </p>
           <p>
-            Below are various links on some supplemental files on courses I teach. My teaching statement can be found here: Teaching Philosophy
+            Below are various links on some supplemental files on courses I teach. My teaching statement can be found here: <a href="https://www.dropbox.com/s/ivq1kkxayfdamb8/Teaching%20Statement%20LY.pdf?dl=0">Teaching Statment</a>
           </p>
           <h3>Associate Instructor of Record</h3>
           <ul>
