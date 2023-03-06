@@ -114,3 +114,16 @@ cd laurelyacuta.github.io \
 && git push \
 && npm run deploy
 ```
+
+### Run on local machine
+
+1. In VS Code go to Terminal > select New Terminal
+
+2. Run:
+
+```bash
+cd laurelyacuta.github.io \
+&& npm start
+```
+
+After you are done run: `control+c`

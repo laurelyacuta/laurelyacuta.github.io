@@ -30,65 +30,52 @@ class Teaching extends Component {
           <h3>Associate Instructor of Record</h3>
           <ul>
             <li>Introduction to Comparative Politics (Winter 2023)</li>
-            <ul>
-              <li>Syllabus (link)</li>
-              <li>Sample Classroom Presentation</li>
-            </ul>
             <li>Introduction to Comparative Politics (Summer 2021)</li>
             <ul>
-              <li>Syllabus (link)</li>
-              <li>Sample Classroom Presentation</li>
+              <li><a href="https://www.dropbox.com/s/1xjuejt9ndf458m/POL002_2023W_Syllabus.pdf?dl=0">Syllabus</a></li>
+              <li><a href="https://www.dropbox.com/s/zmg7a8dhf32rv9k/Lecture%203%20-%20What%20is%20a%20state%20-%20Edited.pdf?dl=0">Sample Slides from Lecture</a></li>
             </ul>
           </ul>
           <h3>Discussion Section Instructor</h3>
           <ul>
             <li>POL 144A Eastern European Politics (Spring 2021)</li>
-            <ul>
-              <li>Section Syllabus</li>
-              <li>Assignment Calendar</li>
-              <li>Sample Presentation</li>
-            </ul>
-          </ul>
-          <ul>
             <li>POL 144A Eastern European Politics (Winter 2022)</li>
             <ul>
-              <li>Section Syllabus</li>
-              <li>Assignment Calendar</li>
-              <li>Sample Presentation</li>
-              <li>Guest Lecture Presentation</li>
+              <li><a href="https://www.dropbox.com/s/m5bsshr1522vr1h/POL%20144A%20Section%20Syllabus.pdf?dl=0">Sample Syllabus</a></li>
+              <li><a href="https://www.dropbox.com/s/svy6y4ze5zsbsk5/General%20Descriptions%20of%20Weekly%20Section%20Assignments.pdf?dl=0">Assignment Calander</a></li>
+              <li><a href="https://www.dropbox.com/scl/fi/bytz77lge904cxciiyzxd/Backup-of-Homework-3.docx?dl=0&rlkey=th4ouq6ri85obrnmqow64cakk">Sample Homework</a></li>
+              <li><a href="https://www.dropbox.com/s/6qlfnf0e45yhwga/Section%20%204.pdf?dl=0">Sample Section Lecture</a></li>
+              <li><a href="https://www.dropbox.com/s/zzwe30ba9heft9n/Rozenas%20%282017%29%20Political%20Legacy%20of%20Violence%20Lecture.pdf?dl=0">Full Guest Lecture</a></li>
             </ul>
           </ul>
           <h3>Discussion Section Teaching Assistant</h3>
           <ul>
             <li>Introduction to Comparative Politics</li>
             <ul>
-              <li>Professor Josephine Andrews</li>
+              <li>With Professor Josephine Andrews</li>
               <ul>
                 <li>Fall 2019</li>
                 <li>Winter 2021</li>
                 <li>Fall 2021</li>
                 <ul>
-                  <li>Sample Presentation</li>
-                  <li>Section Syllabus</li>
+                <li><a href="https://www.dropbox.com/s/jnjlt0y6k09k299/Week%202%20slides.pdf?dl=0">Sample Section Lecture</a></li>
+                <li><a href="https://www.dropbox.com/scl/fi/2fuljgmccgp9tatt7269n/Worksheet-2.docx?dl=0&rlkey=tg08tthzhrsk1bu36798r285a">Sample Class Group Worksheet</a></li>
                 </ul>
               </ul>
             </ul>
             <ul>
-              <li>Associate Instructor Isaac Hale</li>
+              <li>With Lecturer Isaac Hale</li>
               <ul>
                 <li>Fall 2020</li>
-                <ul>
-                  <li>Section Syllabus</li>
-                </ul>
               </ul>
             </ul>
           </ul>
           <ul>
             <li>Introduction to International Relations</li>
             <ul>
-              <li>Professor Brandon Kinne</li>
+              <li>With Professor Brandon Kinne</li>
               <ul>
-                <li>Fall 2020 (1 section)</li>
+                <li>Fall 2020</li>
                 <ul>
                   <li>Spring 2022</li>
                   <ul>
@@ -99,7 +86,7 @@ class Teaching extends Component {
               </ul>
             </ul>
             <ul>
-              <li>Professor Konno</li>
+              <li>With Professor Yuch Konno</li>
               <ul>
                 <li>Spring 2020</li>
                 <ul>
